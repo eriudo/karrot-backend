@@ -90,7 +90,7 @@ def calculate_group_summary_dates(group):
         from_date = midnight - relativedelta(days=7)
 
         # a week after from date
-        to_date = from_date + relativedelta(days=7)
+        to_date = from_date + relativedelta(days=6)
 
         return from_date, to_date
 
